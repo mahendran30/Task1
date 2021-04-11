@@ -1,0 +1,216 @@
+
+  @viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport{
+    width:extend-to-zoom;
+    zoom:1.0;
+}
+.product-nav-links {
+    float: left;
+    background: #fff;
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    min-height: 38px;
+    z-index: 999;
+}
+
+h3 {
+    margin: 50px auto;
+    background-color:lightgoldenrodyellow;
+    text-align: center;
+    color: green;
+    font-size: 8em;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3:hover {
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+        0 3px 0 #ccc, 0 4px 0 #ccc,
+        0 5px 0 #ccc, 0 6px 0 #ccc,
+        0 7px 0 #ccc, 0 8px 0 #ccc,
+        0 9px 0 #ccc, 0 10px 0 #ccc,
+        0 11px 0 #ccc, 0 12px 0 #ccc,
+        0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+list {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+    padding: 0 0 0 15px;
+    font-size: x-large;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+  }
+   input[type=text] {
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+  nav-item{
+      color: darkgreen;
+
+  }
+  product-nav-btn{
+    text-align: center;
+
+  }
+  header{
+    text-align: center;
+    font-family: ZohoPuvi, Helvetica, sans-serif;
+    font-size: 16px;
+   
+}
+.card-header{
+    background-color: #d8d8d8;
+}
+.btn-link{
+    font-weight: 1000;
+    color: #0f1010;
+    font-size: 2.2em;
+    
+    
+}
+.btn-link:active ,.btn-link:hover {
+    text-decoration-thickness:inherit;
+    color:#0f1010;
+    font-size: 2.2em;
+    padding-top: 60px;
+    width: 65%
+    
+}
+
+.align-footer{
+    align-items: center!important;
+    font-family: ZohoPuvi, Helvetica, sans-serif;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: #000;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+    margin-bottom: 1.5rem!important;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 20px;
+  }
+  .row:after {
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 20%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  table {
+   
+    width: 100%;
+  }
+  
+  textarea{
+      color: maroon;
+  }
+  .wrapper .button{
+      display: inline-block;
+      height: 60px;
+      width: 60px;
+      overflow: hidden;
+      margin: 0 5px;
+      float: none;
+      background:  #fff;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease-out;
+  }
+
+  .wrapper .button:nth-child(1):hover .icon{
+      background: #4267B2;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+    background: #E1306C;
+}
+.wrapper .button:nth-child(4):hover .icon{
+    background: #333;
+}
+.wrapper .button:nth-child(5):hover .icon{
+    background: #ff0000;
+}
+  .wrapper .button:hover{
+      width: 100px;
+  }
+  .wrapper .button .icon{
+      display: inline-block;
+      height: 60px;
+      width:60px;
+      text-align: center;
+      border-radius: 50px;
+      box-sizing: border-box;
+      line-height: 60px;
+  }
+  .wrapper .button .icon i{
+      font-size: 25px;
+      line-height: 60px;
+  }
+  .wrapper .button span{
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 60px;
+      margin-left:10px;
+  }
+
+  @media(max-width:768px){
+    header #branding{
+        float:none;
+        text-align: center;
+        width:100;
+    }
+    header{
+        padding-bottom: 30px;
+    }
+    }
